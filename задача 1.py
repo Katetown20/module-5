@@ -7,7 +7,6 @@ class String_Var:
 
     # получение строки
     def get(self, string):
-        self.string = string
         print(string)
 
 s = String_Var()
