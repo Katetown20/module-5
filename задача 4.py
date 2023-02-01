@@ -6,11 +6,11 @@ class Model:
  text = 'War and Peace is a vast epic centred on Napoleon war with Russia'
 
  def save(self):
-  model_dict = filter(lambda x: not x.startswith('_'), dir(Model))
-  model_to_json = dict.fromkeys(model_dict)
+  model_dict = Model.__dict__
+  new_dict = str(model_dict)
   with open('dict.json', 'w') as f:
-         json.dump(model_to_json, f)
-  print(model_to_json)
+   json.dump(new_dict, f)
+  print(new_dict)
 
 
 model1 = Model()

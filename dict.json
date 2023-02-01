@@ -1,1 +1,1 @@
-{"author": null, "save": null, "text": null, "title": null}
+"{'__module__': '__main__', 'author': 'Leo Tolstoy', 'title': 'War and Peace', 'text': 'War and Peace is a vast epic centred on Napoleon war with Russia', 'save': <function Model.save at 0x0000020F82B1A2A0>, '__dict__': <attribute '__dict__' of 'Model' objects>, '__weakref__': <attribute '__weakref__' of 'Model' objects>, '__doc__': None}"
